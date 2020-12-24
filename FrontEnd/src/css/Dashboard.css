@@ -1,0 +1,146 @@
+.Dashboard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Dashboard__table{
+  display: flex;
+  width: 400px;
+
+   height: 400px;
+
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.Dashboard__table__thead{
+  padding-bottom: 70px;
+  padding: 20px;
+}
+.tableHead{
+  padding: 10px;
+}
+table { 
+  border-collapse: collapse; 
+  width: 100%; 
+} 
+.tableRow{
+ border-bottom: 1px solid gray;
+}
+
+th, td { 
+  text-align: center; 
+  padding: 8px; 
+} 
+
+tr:hover{
+  background-color:lightgray;
+  cursor: pointer;
+}
+.modal-wrapper{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  .Overlay{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 100;
+ 
+  }
+  .Modal{
+    position: absolute;
+  
+
+    height: 300px;
+    min-height: 200px;
+    width:200px ;
+    background-color: white;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    z-index: 103;
+    padding: 20px;
+    text-align: center;
+    outline:none;
+    border-radius: 1rem;
+  }
+  .Modal__layout{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid lightgray;
+      
+  }
+  button{
+    background: rgb(237, 90, 107);
+    border-radius: 2rem;
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-color: border-box rgb(237, 90, 107);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+  }
+  .Modal__layout__article{
+      margin-top: 4px;
+      margin-bottom: 5px;
+  }
+  .Modal__layout__withoutBorder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    outline-width: 0;
+  }
+  .modal_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .modal_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .modal_1_checkSection{
+    display: flex;
+    align-items: center;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .search__text{
+    margin-right: 20px;
+  }
+  select{
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    outline-width: 0;
+    margin-left: 10px;
+  }
